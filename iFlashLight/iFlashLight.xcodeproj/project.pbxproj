@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22417E4B1776515000FF38FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22417E4A1776515000FF38FF /* UIKit.framework */; };
+		22417E4D1776515000FF38FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22417E4C1776515000FF38FF /* Foundation.framework */; };
+		22417E4F1776515000FF38FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22417E4E1776515000FF38FF /* CoreGraphics.framework */; };
+		22417E551776515000FF38FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22417E531776515000FF38FF /* InfoPlist.strings */; };
+		22417E571776515000FF38FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22417E561776515000FF38FF /* main.m */; };
+		22417E5B1776515000FF38FF /* ADWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22417E5A1776515000FF38FF /* ADWAppDelegate.m */; };
+		22417E5D1776515000FF38FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22417E5C1776515000FF38FF /* Default.png */; };
+		22417E5F1776515000FF38FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22417E5E1776515000FF38FF /* Default@2x.png */; };
+		22417E611776515000FF38FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22417E601776515000FF38FF /* Default-568h@2x.png */; };
+		22417E641776515000FF38FF /* ADWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22417E631776515000FF38FF /* ADWViewController.m */; };
+		22417E671776515000FF38FF /* ADWViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22417E651776515000FF38FF /* ADWViewController_iPhone.xib */; };
+		22417E6A1776515000FF38FF /* ADWViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22417E681776515000FF38FF /* ADWViewController_iPad.xib */; };
+		22417E721776527800FF38FF /* ADWTorch.m in Sources */ = {isa = PBXBuildFile; fileRef = 22417E711776527800FF38FF /* ADWTorch.m */; };
+		22417E7417765E1800FF38FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22417E7317765E1800FF38FF /* AVFoundation.framework */; };
+		22417E7717766B5000FF38FF /* ADWViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22417E7517766B5000FF38FF /* ADWViewController_iPhone5.xib */; };
+		224F1D7A1776FBD800E28A5C /* torch-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F1D761776FBD800E28A5C /* torch-off.png */; };
+		224F1D7B1776FBD800E28A5C /* torch-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F1D771776FBD800E28A5C /* torch-off@2x.png */; };
+		224F1D7C1776FBD800E28A5C /* torch-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F1D781776FBD800E28A5C /* torch-on.png */; };
+		224F1D7D1776FBD800E28A5C /* torch-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F1D791776FBD800E28A5C /* torch-on@2x.png */; };
+		224F1D821776FDBB00E28A5C /* nav-bar-bg@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F1D7E1776FDBB00E28A5C /* nav-bar-bg@2x~ipad.png */; };
+		224F1D831776FDBB00E28A5C /* nav-bar-bg@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F1D7F1776FDBB00E28A5C /* nav-bar-bg@2x~iphone.png */; };
+		224F1D841776FDBB00E28A5C /* nav-bar-bg~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F1D801776FDBB00E28A5C /* nav-bar-bg~ipad.png */; };
+		224F1D851776FDBB00E28A5C /* nav-bar-bg~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F1D811776FDBB00E28A5C /* nav-bar-bg~iphone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22417E471776515000FF38FF /* iFlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFlashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22417E4A1776515000FF38FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22417E4C1776515000FF38FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22417E4E1776515000FF38FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22417E521776515000FF38FF /* iFlashLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFlashLight-Info.plist"; sourceTree = "<group>"; };
+		22417E541776515000FF38FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22417E561776515000FF38FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22417E581776515000FF38FF /* iFlashLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iFlashLight-Prefix.pch"; sourceTree = "<group>"; };
+		22417E591776515000FF38FF /* ADWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADWAppDelegate.h; sourceTree = "<group>"; };
+		22417E5A1776515000FF38FF /* ADWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADWAppDelegate.m; sourceTree = "<group>"; };
+		22417E5C1776515000FF38FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22417E5E1776515000FF38FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22417E601776515000FF38FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22417E621776515000FF38FF /* ADWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADWViewController.h; sourceTree = "<group>"; };
+		22417E631776515000FF38FF /* ADWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADWViewController.m; sourceTree = "<group>"; };
+		22417E661776515000FF38FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADWViewController_iPhone.xib; sourceTree = "<group>"; };
+		22417E691776515000FF38FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADWViewController_iPad.xib; sourceTree = "<group>"; };
+		22417E701776527800FF38FF /* ADWTorch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWTorch.h; sourceTree = "<group>"; };
+		22417E711776527800FF38FF /* ADWTorch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWTorch.m; sourceTree = "<group>"; };
+		22417E7317765E1800FF38FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22417E7617766B5000FF38FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADWViewController_iPhone5.xib; sourceTree = "<group>"; };
+		224F1D761776FBD800E28A5C /* torch-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torch-off.png"; sourceTree = "<group>"; };
+		224F1D771776FBD800E28A5C /* torch-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torch-off@2x.png"; sourceTree = "<group>"; };
+		224F1D781776FBD800E28A5C /* torch-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torch-on.png"; sourceTree = "<group>"; };
+		224F1D791776FBD800E28A5C /* torch-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torch-on@2x.png"; sourceTree = "<group>"; };
+		224F1D7E1776FDBB00E28A5C /* nav-bar-bg@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar-bg@2x~ipad.png"; sourceTree = "<group>"; };
+		224F1D7F1776FDBB00E28A5C /* nav-bar-bg@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar-bg@2x~iphone.png"; sourceTree = "<group>"; };
+		224F1D801776FDBB00E28A5C /* nav-bar-bg~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar-bg~ipad.png"; sourceTree = "<group>"; };
+		224F1D811776FDBB00E28A5C /* nav-bar-bg~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar-bg~iphone.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22417E441776515000FF38FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22417E7417765E1800FF38FF /* AVFoundation.framework in Frameworks */,
+				22417E4B1776515000FF38FF /* UIKit.framework in Frameworks */,
+				22417E4D1776515000FF38FF /* Foundation.framework in Frameworks */,
+				22417E4F1776515000FF38FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22417E3E1776514F00FF38FF = {
+			isa = PBXGroup;
+			children = (
+				22417E7317765E1800FF38FF /* AVFoundation.framework */,
+				22417E501776515000FF38FF /* iFlashLight */,
+				22417E491776515000FF38FF /* Frameworks */,
+				22417E481776515000FF38FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22417E481776515000FF38FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22417E471776515000FF38FF /* iFlashLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22417E491776515000FF38FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22417E4A1776515000FF38FF /* UIKit.framework */,
+				22417E4C1776515000FF38FF /* Foundation.framework */,
+				22417E4E1776515000FF38FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22417E501776515000FF38FF /* iFlashLight */ = {
+			isa = PBXGroup;
+			children = (
+				22417E591776515000FF38FF /* ADWAppDelegate.h */,
+				22417E5A1776515000FF38FF /* ADWAppDelegate.m */,
+				22417E701776527800FF38FF /* ADWTorch.h */,
+				22417E711776527800FF38FF /* ADWTorch.m */,
+				22417E621776515000FF38FF /* ADWViewController.h */,
+				22417E631776515000FF38FF /* ADWViewController.m */,
+				22417E651776515000FF38FF /* ADWViewController_iPhone.xib */,
+				22417E7517766B5000FF38FF /* ADWViewController_iPhone5.xib */,
+				22417E681776515000FF38FF /* ADWViewController_iPad.xib */,
+				22417E511776515000FF38FF /* Supporting Files */,
+			);
+			path = iFlashLight;
+			sourceTree = "<group>";
+		};
+		22417E511776515000FF38FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224F1D751776FBD800E28A5C /* Graphics */,
+				22417E521776515000FF38FF /* iFlashLight-Info.plist */,
+				22417E531776515000FF38FF /* InfoPlist.strings */,
+				22417E561776515000FF38FF /* main.m */,
+				22417E581776515000FF38FF /* iFlashLight-Prefix.pch */,
+				22417E5C1776515000FF38FF /* Default.png */,
+				22417E5E1776515000FF38FF /* Default@2x.png */,
+				22417E601776515000FF38FF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224F1D751776FBD800E28A5C /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				224F1D7E1776FDBB00E28A5C /* nav-bar-bg@2x~ipad.png */,
+				224F1D7F1776FDBB00E28A5C /* nav-bar-bg@2x~iphone.png */,
+				224F1D801776FDBB00E28A5C /* nav-bar-bg~ipad.png */,
+				224F1D811776FDBB00E28A5C /* nav-bar-bg~iphone.png */,
+				224F1D761776FBD800E28A5C /* torch-off.png */,
+				224F1D771776FBD800E28A5C /* torch-off@2x.png */,
+				224F1D781776FBD800E28A5C /* torch-on.png */,
+				224F1D791776FBD800E28A5C /* torch-on@2x.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22417E461776515000FF38FF /* iFlashLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22417E6D1776515000FF38FF /* Build configuration list for PBXNativeTarget "iFlashLight" */;
+			buildPhases = (
+				22417E431776515000FF38FF /* Sources */,
+				22417E441776515000FF38FF /* Frameworks */,
+				22417E451776515000FF38FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFlashLight;
+			productName = iFlashLight;
+			productReference = 22417E471776515000FF38FF /* iFlashLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22417E3F1776514F00FF38FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pavel Palancica";
+			};
+			buildConfigurationList = 22417E421776514F00FF38FF /* Build configuration list for PBXProject "iFlashLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22417E3E1776514F00FF38FF;
+			productRefGroup = 22417E481776515000FF38FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22417E461776515000FF38FF /* iFlashLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22417E451776515000FF38FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22417E551776515000FF38FF /* InfoPlist.strings in Resources */,
+				22417E5D1776515000FF38FF /* Default.png in Resources */,
+				22417E5F1776515000FF38FF /* Default@2x.png in Resources */,
+				22417E611776515000FF38FF /* Default-568h@2x.png in Resources */,
+				22417E671776515000FF38FF /* ADWViewController_iPhone.xib in Resources */,
+				22417E6A1776515000FF38FF /* ADWViewController_iPad.xib in Resources */,
+				22417E7717766B5000FF38FF /* ADWViewController_iPhone5.xib in Resources */,
+				224F1D7A1776FBD800E28A5C /* torch-off.png in Resources */,
+				224F1D7B1776FBD800E28A5C /* torch-off@2x.png in Resources */,
+				224F1D7C1776FBD800E28A5C /* torch-on.png in Resources */,
+				224F1D7D1776FBD800E28A5C /* torch-on@2x.png in Resources */,
+				224F1D821776FDBB00E28A5C /* nav-bar-bg@2x~ipad.png in Resources */,
+				224F1D831776FDBB00E28A5C /* nav-bar-bg@2x~iphone.png in Resources */,
+				224F1D841776FDBB00E28A5C /* nav-bar-bg~ipad.png in Resources */,
+				224F1D851776FDBB00E28A5C /* nav-bar-bg~iphone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22417E431776515000FF38FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22417E571776515000FF38FF /* main.m in Sources */,
+				22417E5B1776515000FF38FF /* ADWAppDelegate.m in Sources */,
+				22417E641776515000FF38FF /* ADWViewController.m in Sources */,
+				22417E721776527800FF38FF /* ADWTorch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22417E531776515000FF38FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22417E541776515000FF38FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22417E651776515000FF38FF /* ADWViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22417E661776515000FF38FF /* en */,
+			);
+			name = ADWViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		22417E681776515000FF38FF /* ADWViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22417E691776515000FF38FF /* en */,
+			);
+			name = ADWViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		22417E7517766B5000FF38FF /* ADWViewController_iPhone5.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22417E7617766B5000FF38FF /* en */,
+			);
+			name = ADWViewController_iPhone5.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22417E6B1776515000FF38FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22417E6C1776515000FF38FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22417E6E1776515000FF38FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFlashLight/iFlashLight-Prefix.pch";
+				INFOPLIST_FILE = "iFlashLight/iFlashLight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22417E6F1776515000FF38FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFlashLight/iFlashLight-Prefix.pch";
+				INFOPLIST_FILE = "iFlashLight/iFlashLight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22417E421776514F00FF38FF /* Build configuration list for PBXProject "iFlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22417E6B1776515000FF38FF /* Debug */,
+				22417E6C1776515000FF38FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22417E6D1776515000FF38FF /* Build configuration list for PBXNativeTarget "iFlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22417E6E1776515000FF38FF /* Debug */,
+				22417E6F1776515000FF38FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22417E3F1776514F00FF38FF /* Project object */;
+}
